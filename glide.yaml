@@ -1,0 +1,17 @@
+package: github.com/soter/demo-vault-unseal-using-azure-kms
+import:
+- package: github.com/Azure/azure-sdk-for-go
+  version: master
+  subpackages:
+  - services/keyvault/2016-10-01/keyvault
+  - services/keyvault/mgmt/2016-10-01/keyvault
+  - iam
+  - helpers
+- package: github.com/Azure/go-autorest
+  version: master
+  subpackages:
+  - autorest/to
+- package: github.com/spf13/cobra
+  version: master
+- package: github.com/spf13/pflag
+  version: master

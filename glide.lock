@@ -1,0 +1,95 @@
+hash: 1d529221cabfa04e6f4b20493c4b343c2186960b76e46af4acff458fc4166f99
+updated: 2018-05-25T11:48:42.294541573+06:00
+imports:
+- name: github.com/Azure/azure-sdk-for-go
+  version: 0a8ed6c65dc34935d90dee3ddbc901f1f497f221
+  subpackages:
+  - helpers
+  - iam
+  - services/keyvault/2016-10-01/keyvault
+  - services/keyvault/mgmt/2016-10-01/keyvault
+  - version
+- name: github.com/Azure/go-autorest
+  version: 9157a90cf06a2f000b8a67181e1dd501cdb5753e
+  subpackages:
+  - autorest
+  - autorest/adal
+  - autorest/azure
+  - autorest/date
+  - autorest/to
+  - autorest/validation
+- name: github.com/dgrijalva/jwt-go
+  version: 01aeca54ebda6e0fbfafd0a524d234159c05ec20
+- name: github.com/ghodss/yaml
+  version: 73d445a93680fa1a78ae23a5839bad48f32ba1ee
+- name: github.com/golang/glog
+  version: 44145f04b68cf362d9c4df2182967c2275eaefed
+- name: github.com/golang/snappy
+  version: 2e65f85255dbc3072edf28d6b5b8efc472979f5a
+- name: github.com/hashicorp/errwrap
+  version: 7554cd9344cec97297fa6649b055a8c98c2a1e55
+- name: github.com/hashicorp/go-cleanhttp
+  version: d5fe4b57a186c716b0e00b8c301cbd9b4182694d
+- name: github.com/hashicorp/go-multierror
+  version: b7773ae218740a7be65057fc60b366a49b538a44
+- name: github.com/hashicorp/go-rootcerts
+  version: 6bb64b370b90e7ef1fa532be9e591a81c3493e00
+- name: github.com/hashicorp/hcl
+  version: d8c773c4cba11b11539e3d45f93daeaa5dcf1fa1
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/hashicorp/vault
+  version: 5dd7f25f5c4b541f2da62d70075b6f82771a650d
+  subpackages:
+  - api
+  - helper/compressutil
+  - helper/jsonutil
+  - helper/parseutil
+  - helper/strutil
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/mitchellh/go-homedir
+  version: 3864e76763d94a6df2f9960b16a20a33da9f9a66
+- name: github.com/mitchellh/mapstructure
+  version: 53818660ed4955e899c0bcafa97299a388bd7c8e
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+- name: github.com/ryanuber/go-glob
+  version: 256dc444b735e061061cf46c809487313d5b0065
+- name: github.com/satori/go.uuid
+  version: 36e9d2ebbde5e3f13ab2e25625fd453271d6522e
+- name: github.com/sethgrid/pester
+  version: 03e26c9abbbf5accb8349790bf9f41bde09d72c3
+- name: github.com/spf13/cobra
+  version: ef82de70bb3f60c65fb8eebacbb2d122ef517385
+- name: github.com/spf13/pflag
+  version: 583c0c0531f06d5278b7d917446061adc344b5cd
+- name: golang.org/x/crypto
+  version: 81e90905daefcd6fd217b62423c0908922eadb30
+  subpackages:
+  - pkcs12
+  - pkcs12/internal/rc2
+- name: golang.org/x/net
+  version: 1c05540f6879653db88113bc4a2b70aec4bd491f
+  subpackages:
+  - http2
+  - http2/hpack
+  - idna
+  - lex/httplex
+- name: golang.org/x/text
+  version: b19bf474d317b857955b12035d2c5acb57ce8b01
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: gopkg.in/yaml.v2
+  version: 670d4cfef0544295bc27a114dbac37980d83185a
+testImports: []
